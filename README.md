@@ -5,6 +5,7 @@ The simple spring-boot default sample controller. Dense and hard to get magics.
 
 ###Phase 1: Bringing the hammer down
 The single sample controller from the boot exercise has now been exploded to it's three base elements.
+[See this phase's readme](phase_1/README.md)
 
 ###Phase 2: Persistance is Magic
 Adding some other springframework dependencies, specifially spring-data-jpa for persistence.
