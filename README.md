@@ -1,7 +1,6 @@
 #Workshop projects for spring-boot
 
 ###Starting state: 
-* /initial
 The simple spring-boot default sample controller. Dense and hard to get magics.
 
 ###Phase 1: Bringing the hammer down
