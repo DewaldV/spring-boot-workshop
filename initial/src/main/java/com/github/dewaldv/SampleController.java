@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan
 @RestController
 public class SampleController {
 
