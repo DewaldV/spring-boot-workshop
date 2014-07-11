@@ -4,6 +4,8 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface PonyRepository extends CrudRepository<Pony, Integer>{
+public interface PonyRepository extends CrudRepository<Pony, Integer> {
     Pony findByName(String name);
+
+    Iterable<Pony> findByType(PonyType type);
 }
