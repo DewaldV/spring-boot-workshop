@@ -9,5 +9,5 @@ Breaking up the sample controller into smaller parts to show what each component
 ###Phase 2: Persistance is Magic
 Adding some other springframework dependencies, specifially spring-data-jpa for persistence.
 
-###Phase 3: Acend to RMM Level 3
+###Phase 3: Ascend to RMM Level 3
 Adding spring-hateoas to make our API RMM level 3
