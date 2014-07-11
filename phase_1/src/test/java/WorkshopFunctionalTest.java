@@ -1,5 +1,4 @@
-package com.github.dewaldv;
-
+import com.github.dewaldv.WorkshopConfiguration;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.IntegrationTest;
@@ -14,10 +13,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 @Component
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = SampleController.class)
+@SpringApplicationConfiguration(classes = WorkshopConfiguration.class)
 @IntegrationTest
 @WebAppConfiguration
-public class SampleControllerFunctionalTest {
+public class WorkshopFunctionalTest {
 
     @Test
     public void shouldReturnHelloWorldOnDefaultEndpoint() throws Exception {

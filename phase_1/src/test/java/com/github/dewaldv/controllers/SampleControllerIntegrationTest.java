@@ -1,5 +1,6 @@
-package com.github.dewaldv;
+package com.github.dewaldv.controllers;
 
+import com.github.dewaldv.WorkshopConfiguration;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,15 +13,15 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 @Component
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = SampleController.class)
+@SpringApplicationConfiguration(classes = WorkshopConfiguration.class)
 public class SampleControllerIntegrationTest {
 
     @Autowired
-    private SampleController sampleController;
+    private WorkshopController workshopController;
 
     @Test
     public void shouldStartContextAndReturnHelloWorld() throws Exception {
-        String result = sampleController.get();
+        String result = workshopController.get();
 
         assertThat(result, equalTo("Hello World!"));
     }
